@@ -1,0 +1,119 @@
+# ───────────────────────────────
+# Terraform
+# ───────────────────────────────
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos auto-generados por Terraform
+*.tfvars.json
+
+# ───────────────────────────────
+# Kubernetes
+# ───────────────────────────────
+*.yaml~
+*.yml~
+*.tmp
+
+# ───────────────────────────────
+# Linux
+# ───────────────────────────────
+*~
+
+# ───────────────────────────────
+# Editores
+# ───────────────────────────────
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# ───────────────────────────────
+# Binarios y ejecutables
+# ───────────────────────────────
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# ───────────────────────────────
+# macOS
+# ───────────────────────────────
+.DS_Store
+
+# ───────────────────────────────
+# Windows
+# ───────────────────────────────
+Thumbs.db
+Desktop.ini
+# ───────────────────────────────
+# Terraform
+# ───────────────────────────────
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos auto-generados por Terraform
+*.tfvars.json
+
+# ───────────────────────────────
+# Kubernetes
+# ───────────────────────────────
+# Archivos generados por kubectl
+*.yaml~
+*.yml~
+*.tmp
+
+# ───────────────────────────────
+# Sistemas operativos
+# ───────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ───────────────────────────────
+# Editores
+# ───────────────────────────────
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# ───────────────────────────────
+# Binarios y ejecutables
+# ───────────────────────────────
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
