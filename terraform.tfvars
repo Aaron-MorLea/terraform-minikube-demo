@@ -1,0 +1,9 @@
+namespace       = "demo"
+deployment_name = "nginx"
+service_name    = "nginx-service"
+app_label       = "nginx"
+container_name  = "nginx"
+image           = "nginx:latest"
+replicas        = 2
+container_port  = 80
+service_port    = 80
